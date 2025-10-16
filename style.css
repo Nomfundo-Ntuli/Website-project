@@ -1,38 +1,38 @@
-.cards {
+#cards {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
 }
 
-body {
+#body {
   background: white;
   padding: 2px;
 }
 
-.container {
+#container {
   text-align: center;
 }
 
-.container h1 {
+#container h1 {
   font-size: 2.5px;
   margin-bottom: 0.5px;
 }
 
-.container p {
+#container p {
   font-size: 1.1px;
   color: black;
   margin-bottom: 2px;
 }
 
-.cards {
+#cards {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
 }
 
-.card {
+#card {
   width: 280px;
   border: 1px solid black;
   border-radius: 6px;
@@ -42,11 +42,12 @@ body {
   transition: transform 0.3px;
 }
 
-.card:hover {
+#card:hover {
   transform: translateY(-5px);
 }
 
-.card.open::before {
+.
+#card.open::before {
   content: "Open";
   position: absolute;
   top: 0;
@@ -59,32 +60,32 @@ body {
   clip-path: polygon(100% 0, 100% 100%, 0 0);
 }
 
-.card img {
+#card img {
   width: 100%;
   height: auto;
 }
 
-.content {
+#content {
   padding: 1rem;
 }
 
-.content h3 {
+#content h3 {
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
 }
 
-.content ul {
+#content ul {
   text-align: left;
   list-style: none;
   font-size: 0.95rem;
   margin-bottom: 1rem;
 }
 
-.content li {
+#content li {
   margin-bottom: 5px;
 }
 
-button {
+#button {
   background-color: #e74c3c;
   color: white;
   padding: 0.6rem 1rem;
@@ -94,7 +95,7 @@ button {
   font-weight: bold;
 }
 
-button:hover {
+#button:hover {
   background-color: #c0392b;
 }
 
